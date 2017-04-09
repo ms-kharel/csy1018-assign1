@@ -1,0 +1,50 @@
+/* Name: Mahima Kharel
+UN ID : 17429440 */
+body{font-size: 30px; font-family: cursive;background:linear-gradient(
+slategrey,silver,lightgrey,whitesmoke
+);color:black;
+   {
+  }
+    }
+footer{ background:slategray; color: black; font-sixe: 10px; font-family:cursive;
+}
+a:link, a:visited {
+    background-color:slategray;
+    color:seashell;
+    padding:10px;
+    text-align: center;
+    font-family: cursive;
+  }
+  ul.horizontal-list {
+    padding-top: 0px; text-align: right;
+    }
+    ul.horizontal-list li {
+      display: inline;
+    }/*change in unordered list*/
+  img.profile{
+    width:222px;
+  }
+  img {
+        width:35px;
+        background-color:slategray;
+        padding: 30px;
+    }/*change in property of image*/
+section{
+}
+      .leftbar{ background:silver;height:100%;width: 100%; padding: 20px;
+        display: flex;
+        flex-direction: row;
+      }
+      article.article{
+
+        width: 80%
+      }
+      section article {
+        margin: 10px 10px 10px 20px;
+      }
+h3{color:white;margin:0px;background: slategray;
+  padding:1%;}
+aside.image{
+  background: silver ;
+  width: 20%;
+}
