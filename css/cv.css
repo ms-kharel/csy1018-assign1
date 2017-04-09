@@ -1,0 +1,90 @@
+/* Name: Mahima Kharel
+UN ID : 17429440 */
+body{font-size: 20px; font-family: cursive; background:linear-gradient(
+slategrey,silver,lightgrey,whitesmoke);color:black; padding:0px;
+}
+footer{ background:slategray; color: seashell; font-sixe: 10px; font-family: cursive;
+}
+a:link, a:visited {
+    background-color:slategray;
+    color:seashell;
+    padding:10px;
+    text-align: center;
+    font-family: cursive;
+  }/*change in the link*/
+  ul.horizontal-list {
+    padding-top: 0px; text-align: right;
+    }
+    ul.horizontal-list li {
+      display: inline;
+    }/*change in unordered lis*/
+
+img {
+  width:300px;
+  height:300px;
+  padding: 20px; background: slategrey;
+}
+   section{display: flex;flex-direction: row; background:linear-gradient(
+   slategrey,silver,lightgrey,whitesmoke
+   );color:black; width: 100%; height:600px;
+}
+ .leftbar{width:25%;
+}
+ .main{width:30%;height:60%%; padding:0 1% 0 13%; text-align: justify;}
+ ul.vertical-list {
+   padding-top: 10px; text-align: left;
+   }
+
+.rightbar{
+  width:45%; padding:0 1% 0 13%;padding-top: 15px;font-family: monospace;
+}
+.profile{
+  animation-name: image;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: animation 1s;
+}
+@keyframes image {
+0%{
+    transform: scale(0.3);
+    opacity: 0.5;
+    border-radius: 50%
+  }
+  20%{
+    transform: scale(0.5);
+    border-radius: 30%
+  }
+  40%{
+transform: scale(0.8);
+opacity: 0.8;
+border-radius: 20%
+  }
+55%{
+transform: scale(1);
+opacity: 1;
+  }
+68%{
+transform: scale(0.8);
+border-radius: 20%;
+opacity: 0.8;
+  }
+85%{
+transform: scale(0.5);
+opacity: 0.5;
+border-radius: 30%
+  }
+100%{
+     transform: scale(0.3);
+     opacity: 1;
+     border-radius: 50%
+  }
+}/*transformation property of the image*/
+h3{
+  font-size: 20px
+}
+ul.vertical-list {
+  padding-top: 10px; text-align: left;font-family: monospace; color:black;
+  }
+  h1{
+    background: silver;font-family: monospace;color:black;
+  }
